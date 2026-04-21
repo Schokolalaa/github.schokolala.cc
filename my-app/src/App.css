@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .pfp-logo {
@@ -10,7 +11,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .pfp-logo {
-    animation: Pfp-logo-spin infinite 20s linear;
+    animation: Pfp-logo-spin infinite 2s linear;
   }
 }
 
@@ -27,7 +28,43 @@
 
 .App-link {
   color: #6e61fb;
+  background-color: rgba(9, 18, 88, 0.2);
+  
+  padding: 5px;
+  border-radius: 10px;
+  text-shadow: 20%;
+  text-underline-offset: 20%;
 }
+
+.iframe-Skrillex-Soundcloud {
+  padding: 20%;
+  width: 60%;
+}
+
+.Soundcloud-Skrillex {
+  font-size: 10px; 
+  color:  #6e61fb;
+  line-break: 
+  anywhere;
+  word-break: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+  font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;
+
+}
+
+.Skrillex {
+  color: #6e61fb; 
+  text-decoration: none;
+}
+
+.SCREAM-N-SHOUT {
+  color: #6e61fb; 
+  text-decoration: none;
+}
+
+
 
 @keyframes Pfp-logo-spin {
   from {
