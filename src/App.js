@@ -9,6 +9,9 @@ function App() {
         
         <img src={pfp} className="pfp-logo" alt="Pfp" />
         <p>This is Like a LinkTree</p>
+        <a href="mailto:schoko@schokolala.cc">schoko@schokolala.cc</a>
+        <img className="pfp-logo" src="https://cataas.com/cat?width=100" alt="Cat"></img>
+        <a className="App-link" href="https://cataas.com/cat?width=100">cataas.com</a>
         <ul>
         <li>
           <a
